@@ -1,10 +1,5 @@
-﻿
-using Calculadora.Adicao;
 using Calculadora.Calculadora;
 using Calculadora.Operacao;
-using Calculadora.Divisao;
-using Calculadora.Multiplicacao;
-using Calculadora.Subtracao;
 using System.Data;
 using System;
 
