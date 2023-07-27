@@ -1,7 +1,10 @@
-using Calculadora.Calculadora;
-using Calculadora.Operacao;
-using System.Data;
+﻿using System.Data;
 using System;
+using Calculadora.Operações.Adicao;
+using Calculadora.Operações.Divisao;
+using Calculadora.Operações.Multiplicacao;
+using Calculadora.Operações.Subtracao;
+using Calculadora.Operações;
 
 internal class Program
 {
@@ -11,7 +14,7 @@ internal class Program
 
         List<double> valores = new List<double>();
 
-        ValoresOperacao valoresOperacao = new ValoresOperacao(valores);
+        ValorOperacao valoresOperacao = new ValorOperacao(valores);
 
         while (true)
         {
@@ -19,7 +22,7 @@ internal class Program
             Console.WriteLine("CALCULADORA MASTER");
             Console.WriteLine("-----------------------------");
             foreach (string opcao in opcoes) { Console.WriteLine(opcao); }
-            Console.Write("DIGITE: ");
+            Console.Write("\nDIGITE: ");
 
             byte operacao = byte.Parse(s: Console.ReadLine());
             if (operacao == 5) break;
@@ -31,37 +34,37 @@ internal class Program
 
             switch (operacao)
             {
-                case (byte)TipoOperacao.SOMA:
+                case (byte)EnumOperacao.SOMA:
                     Adicao adicao = new Adicao();
                     result = adicao.soma(listaValores[0], listaValores[1]);
-                    Console.WriteLine($"{TipoOperacao.SOMA}: {result}");
+                    Console.WriteLine($"{EnumOperacao.SOMA}: {result}");
 
                     break;
-                case (byte)TipoOperacao.SUBTRACAO:
+                case (byte)EnumOperacao.SUBTRACAO:
                     Subtracao subtracao = new Subtracao();
                     result = subtracao.diminuir(listaValores[0], listaValores[1]);
-                    Console.WriteLine($"{TipoOperacao.SUBTRACAO}: {result}");
+                    Console.WriteLine($"{EnumOperacao.SUBTRACAO}: {result}");
                     break;
-                case (byte)TipoOperacao.DIVISAO:
+                case (byte)EnumOperacao.DIVISAO:
                     Divisao divisao = new Divisao();
                     result = divisao.divisao(listaValores[0], listaValores[1]);
-                    Console.WriteLine($"{TipoOperacao.DIVISAO}: {result}");
+                    Console.WriteLine($"{EnumOperacao.DIVISAO}: {result}");
                     break;
-                case (byte)TipoOperacao.MULTIPLICACAO:
+                case (byte)EnumOperacao.MULTIPLICACAO:
                     Multiplicacao multiplicacao = new Multiplicacao();
                     result = multiplicacao.multiplicacao(listaValores[0], listaValores[1]);
-                    Console.WriteLine($"{TipoOperacao.MULTIPLICACAO}: {result}");
+                    Console.WriteLine($"{EnumOperacao.MULTIPLICACAO}: {result}");
                     break;
-                case (byte)TipoOperacao.SAIR:
+                case (byte)EnumOperacao.SAIR:
                     break;
-                default: Console.WriteLine("Erro: Por Favor! Digite de 1 ao 5."); break;
+                default: Console.WriteLine("\nErro: Por Favor! Digite de 1 ao 5."); break;
             }
             Console.ReadKey();
             valoresOperacao.limpaValores();
             Console.Clear();
 
-            Console.WriteLine("Deseja realizar uma nova operacao:\n1 - SIM\n2 - NAO");
-            Console.Write("Digite: ");
+            Console.WriteLine("\nDeseja realizar uma nova operacao:\n1 - SIM\n2 - NAO");
+            Console.Write("\nDigite: ");
             byte continuar = byte.Parse(Console.ReadLine());
 
             if (continuar == 2) break;

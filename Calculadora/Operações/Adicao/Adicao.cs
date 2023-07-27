@@ -1,6 +1,5 @@
-﻿using Calculadora.Calculadora;
-
-namespace Calculadora.Adicao
+﻿
+namespace Calculadora.Operações.Adicao
 {
     public class Adicao : IAdicao
     {

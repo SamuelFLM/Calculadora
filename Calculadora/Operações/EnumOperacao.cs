@@ -1,6 +1,6 @@
-﻿namespace Calculadora.Operacao
+﻿namespace Calculadora.Operações
 {
-    internal enum TipoOperacao
+    internal enum EnumOperacao
     {
         SOMA = 1,
         SUBTRACAO,

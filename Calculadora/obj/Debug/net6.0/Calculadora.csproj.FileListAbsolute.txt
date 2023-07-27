@@ -13,3 +13,18 @@ C:\temp\ws-dotnet\Calculadora\Calculadora\obj\Debug\net6.0\refint\Calculadora.dl
 C:\temp\ws-dotnet\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.pdb
 C:\temp\ws-dotnet\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.genruntimeconfig.cache
 C:\temp\ws-dotnet\Calculadora\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\refint\Calculadora.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.exe
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.deps.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.runtimeconfig.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\bin\Debug\net6.0\Calculadora.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.genruntimeconfig.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Ferramentas\Calculadora\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
